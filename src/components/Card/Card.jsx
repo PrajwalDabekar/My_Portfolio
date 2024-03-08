@@ -5,7 +5,7 @@ function Card({title='Project-Title',stack='stack',cover='https://images.unsplas
     return(
         <a 
         href={hyperlink}
-        class="w-[270px] h-full bg-white rounded-md text-wrap">
+        class="w-[200px] sm:w-[270px] h-full bg-white rounded-md text-wrap">
   <img
     src={cover}
     alt="Laptop"

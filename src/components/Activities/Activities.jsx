@@ -19,10 +19,7 @@ function Activities(){
                       <div className='font-semibold'>BugSquash FE WINNER</div> 
                       <p>Idea presentation competition for FE organized by Technical Team of SIES GST</p>
                     </div>
-                    <div className='text-left py-2 border-b border-slate-500'>
-                      <div className='font-semibold'>IDEATION WINNER</div> 
-                      <p>Idea presentation competition organized by IETE Student Chapter of SIES GST</p>
-                    </div>
+                    
                   </div>
               </div>
     )

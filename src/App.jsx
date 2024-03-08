@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+//import './App.css'
 import Nav from './components/Nav/Nav'
 import { Link } from 'react-router-dom'
 import Hero from './components/Hero/Hero'
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Nav/>
-      <div className='flex'>
+      <div className='flex flex-col-reverse sm:flex-row'>
         <div className='h-full px-4 basis-1/4 m-2 text-white space-y-2'>
           <div className='bg-[#1c1b23] py-6 space-y-2'>
           <a  
@@ -31,19 +31,20 @@ function App() {
               </a>
               </div>
               <Activities/>
-              <div className='py-2 px-4 bg-blue-400'>
+              <div className='px-16 py-2 bg-blue-400'>
               <a href={resume} target='_blank'
               className='w-full'>Download Resume</a>
               </div>
         </div>
-        <div className='basis-3/4 bg-[#14131a] p-3 m-2'>
+        <div className='basis-3/4 bg-[#14131a] sm:p-3 m-2'>
           <Hero/>
           <div>
           <div className='text-white text-left font-semibold my-5 text-2xl'>
           Projects
         </div>
-        <div className='flex space-x-4'>
+        <div className='flex flex-col justify-center items-center space-y-3 sm:flex-row space-x-4'>
         <Card
+        className="mx-2"
         hyperlink='https://github.com/PrajwalDabekar/exercise_counting_module'
         cover='https://assets-global.website-files.com/5ecf8d4fd463368e57125560/5ecf8d4fd4633682fd125584_feature-1.png'
         title='AI Fitness Trainer'
@@ -61,12 +62,12 @@ function App() {
           stack='HTML CSS NodeJS ExpressJS MongoDB'
           />
         </div>
-        <div className='flex'>
+        <div className='flex flex-col sm:flex-row'>
           <div className='bg-[#14131a] basis-2/3 my-4 px-4'>
         <div className='text-white text-left font-semibold my-5 text-2xl'>
           What I Know
         </div>
-        <div className='flex text-white space-x-2'>
+        <div className='flex flex-col text-white sm:flex-row space-x-2'>
           <div className='px-6 bg-[#1c1b23] py-4'>
             Frontend
             <div className='flex flex-wrap justify-between mt-5'>
