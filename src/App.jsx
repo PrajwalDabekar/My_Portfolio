@@ -9,6 +9,7 @@ import Card from './components/Card/Card'
 import Activities from './components/Activities/Activities'
 import Projects from './components/Projects/Projects'
 import resume from '../src/assets/Resume.pdf'
+import Contact from './components/Contact/Contact'
 
 function App() {
   
@@ -31,10 +32,10 @@ function App() {
               </a>
               </div>
               <Activities/>
-              <div className='px-16 py-2 bg-blue-400'>
+              <Contact/>
               <a href={resume} target='_blank'
-              className='w-full'>Download Resume</a>
-              </div>
+              className='mt-4 px-16 py-2 bg-blue-400'>Download Resume</a>
+              
         </div>
         <div className='basis-3/4 bg-[#14131a] sm:p-3 m-2'>
           <Hero/>
