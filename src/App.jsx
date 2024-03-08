@@ -14,7 +14,7 @@ import Contact from './components/Contact/Contact'
 function App() {
   
   return (
-    <div>
+    <div className='mb-4'>
       <Nav/>
       <div className='flex flex-col-reverse sm:flex-row'>
         <div className='h-full px-4 basis-1/4 m-2 text-white space-y-2'>
@@ -34,7 +34,7 @@ function App() {
               <Activities/>
               <Contact/>
               <a href={resume} target='_blank'
-              className='mt-4 px-16 py-2 bg-blue-400'>Download Resume</a>
+              className='px-16 py-2 bg-blue-400'>Download Resume</a>
               
         </div>
         <div className='basis-3/4 bg-[#14131a] sm:p-3 m-2'>
