@@ -67,7 +67,7 @@ function App() {
         <div className='text-white text-left font-semibold my-5 text-2xl'>
           What I Know
         </div>
-        <div className='flex flex-col text-white sm:flex-row space-x-2'>
+        <div className='flex flex-col text-white space-y-2 sm:flex-row space-x-2'>
           <div className='px-6 bg-[#1c1b23] py-4'>
             Frontend
             <div className='flex flex-wrap justify-between mt-5'>
