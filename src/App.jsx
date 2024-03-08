@@ -33,8 +33,9 @@ function App() {
               </div>
               <Activities/>
               <Contact/>
+              <div className='flex justify-center items-center'>
               <a href={resume} target='_blank'
-              className='px-16 py-2 bg-blue-400'>Download Resume</a>
+              className='px-16 py-2 bg-blue-400'>Download Resume</a></div>
               
         </div>
         <div className='basis-3/4 bg-[#14131a] sm:p-3 m-2'>
