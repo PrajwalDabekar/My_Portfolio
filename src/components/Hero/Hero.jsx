@@ -1,12 +1,12 @@
 import React from "react";
-import profile from '../../assets/myprofile.jpeg'
-//import herobg from '../../assets/herobg.jpeg'
+import profile1 from '../../assets/my1.jpeg'
+
 
 function Hero(){
     return(
         <div className="bg-[url('https://i2.wp.com/zeevector.com/wp-content/uploads/Colorful-Background-HD.png?fit=1942%2C1476&ssl=1')] bg-no-repeat bg-cover space-x-7 sm:w-full h-[250px] flex items-center backdrop-blur-sm ">
             <div>
-                <img src={profile} className="h-[130px] w-[130px] m-2 sm:h-[220px] sm:w-[220px] rounded-full border-2 m-5 object-cover sm:border-4"/>
+                <img src={profile1} className="h-[130px] w-[130px] m-2 sm:h-[220px] sm:w-[220px] rounded-full border-2 m-5 object-cover sm:border-4"/>
             </div>
             <div className="text-white text-left m-4">
                 <div className="text-lg font-semibold sm:font-bold sm:text-4xl">Prajwal Dabekar</div>
